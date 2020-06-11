@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+{% include "head.html" %}
+
+<body>
+    <div id="page-container">
+           <div id="content-wrap">
+
+            {% include 'header.html' %}
+
+            {% if messages %}
+            <div>
+              <ul>
+                {% for message in messages %}
+                <div class="alert alert-primary" role="alert">
+                <li>{{message}}</li>
+                </div>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+            {% block menu %}
+            {% endblock %}
+
+            {% block content %}
+            {% endblock content %}
+           </div>
+
+        {% include 'footer.html' %}
+        {% include 'scripts.html' %}
+     </div>
+
+</body>
+
+</html>
