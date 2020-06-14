@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'm5vl$s7tyu(paqoj=pt*lb&_or5*s^fpz0h71+@$@4)je5%pje'
+SECRET_KEY = 
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -153,9 +153,9 @@ TINYMCE_DEFAULT_CONFIG = {
     'statusbar': True,
 }
 
-MAILCHIMP_API_KEY = '42c78cee71c322e87f15fac677a67e35-us10'
-MAILCHIMP_DATA_CENTER = 'us10'
-MAILCHIMP_EMAIL_LIST_ID = '007b627a4c'
+MAILCHIMP_API_KEY = 
+MAILCHIMP_DATA_CENTER = 
+MAILCHIMP_EMAIL_LIST_ID = 
 
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
@@ -169,7 +169,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'neilgo1234@gmail.com'
-EMAIL_HOST_PASSWORD = 'Neilshubh12'
+EMAIL_HOST_PASSWORD = 
 
 ACCOUNT_EMAIL_VERIFICATION = True
 
